@@ -3,7 +3,7 @@ on: [push]
 jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
-    name: echoo
+    name: echo
     steps:
       - uses: actions/checkout@master
       - uses: jakejarvis/s3-sync-action@master
